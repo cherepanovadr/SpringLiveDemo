@@ -1,0 +1,7 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<h1>Hello, <span th:text="${name}"></span>!</h1>
+<div th:each="student : ${topStudents}">
+<p><span th:text="${student.getName()}"></span> </p>
+</div>
+
+</html>
